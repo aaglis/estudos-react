@@ -1,4 +1,3 @@
 export default function Lista(props) {
-  console.log(props);
-  return <ul>{props.children}</ul>;
+  return <ul className="list-disc pl-8">{props.children}</ul>;
 }

@@ -6,17 +6,17 @@ export default function childComponents() {
     <div>
       <h1 className="text-center font-bold text-3xl pt-4">
         Lista de Elementos Filhos
-        <div>
-          <Lista>
-            <Item content="testando 1" />
-            <Item content="testando 2" />
-            <Item content="testando 3" />
-            <Item content="testando 4" />
-            <Item content="testando 5" />
-            <Item content="testando 6" />
-          </Lista>
-        </div>
       </h1>
+      <div className="flex justify-center text-xl font-bold">
+        <Lista>
+          <Item content="testando 1" />
+          <Item content="testando 2" />
+          <Item content="testando 3" />
+          <Item content="testando 4" />
+          <Item content="testando 5" />
+          <Item content="testando 6" />
+        </Lista>
+      </div>
     </div>
   );
 }
