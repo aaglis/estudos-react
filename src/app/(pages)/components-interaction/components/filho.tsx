@@ -19,7 +19,6 @@ export default function Filho(props: IFalarComOPai) {
         onClick={incrementar}
         className="bg-zinc-600 rounded p-2 text-white"
       >
-        {" "}
         Falar Com o Pai
       </button>
     </div>
